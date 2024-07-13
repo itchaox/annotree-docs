@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2024-07-13 09:50
  * @LastAuthor : itchaox
- * @LastTime   : 2024-07-13 13:15
+ * @LastTime   : 2024-07-13 14:31
  * @desc       :
  */
 import { defineConfig } from 'vitepress';
@@ -12,11 +12,14 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'Annotree',
   description: 'A VitePress Site',
+  head: [['link', { rel: 'icon', href: 'images/logo.png' }]],
   themeConfig: {
     logo: 'images/logo.png',
     search: {
       provider: 'local',
     },
+    outlineTitle: '本页目录',
+
     nav: [
       { text: '指南', link: '/why' },
       { text: '下载', link: '/download' },
