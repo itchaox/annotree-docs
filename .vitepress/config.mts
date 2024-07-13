@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2024-07-13 09:50
  * @LastAuthor : itchaox
- * @LastTime   : 2024-07-13 14:31
+ * @LastTime   : 2024-07-13 17:42
  * @desc       :
  */
 import { defineConfig } from 'vitepress';
@@ -19,20 +19,20 @@ export default defineConfig({
       provider: 'local',
     },
     outlineTitle: '本页目录',
-
+    outline: 'deep',
     nav: [
       { text: '指南', link: '/why' },
       { text: '下载', link: '/download' },
     ],
-
     sidebar: [
       {
         text: '指南',
         items: [
           { text: '为什么选择 Annotree', link: '/why' },
-          { text: '功能介绍', link: '/markdown-examples' },
+          { text: '功能介绍', link: '/features' },
           { text: '软件下载', link: '/download' },
           { text: '反馈渠道', link: '/feedback' },
+          { text: '开发 Annotree 的故事', link: '/story' },
         ],
       },
     ],

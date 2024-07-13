@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /features
     - theme: alt
       text: 为什么选择 Annotree？
-      link: /api-examples
+      link: /why
     - theme: alt
       text: 查看源码
       link: https://github.com/itchaox/annotree
@@ -33,7 +33,12 @@ features:
   - icon: 📂
     title: 自动打开导出文件
     details: 导出文件后自动打开，无需手动查找文件，节省时间，让工作流程更加流畅。
+footer: 'MIT Licensed | Copyright © 2024'
 ---
+
+## 效果预览 🎉
+
+![My Image](/images/demo.gif)
 
 <style>
 :root {
