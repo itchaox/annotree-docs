@@ -5,8 +5,8 @@
 
 ## Mac 版本
 
-[点我下载](https://github.com/itchaox/annotree/releases/download/v0.1.2/Annotree-0.1.2.dmg)
+[点我下载](https://github.com/itchaox/annotree/releases/download/v0.1.4/Annotree-0.1.4.dmg)
 
 ## Windows 版本
 
-[点我下载](https://github.com/itchaox/annotree/releases/download/v0.1.2/Annotree-0.1.2-setup.exe)
+[点我下载](https://github.com/itchaox/annotree/releases/download/v0.1.4/Annotree-0.1.4-setup.exe)
