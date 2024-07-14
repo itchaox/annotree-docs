@@ -56,5 +56,9 @@ footer: 'MIT Licensed | Copyright © 2024'
 
   --vp-button-brand-hover-text: #253445;
   --vp-button-brand-hover-bg: #9df5b9;
+
+    --vp-button-brand-active-text: #253445;
+    --vp-button-brand-active-bg: #78d993;
+
 }
 </style>
