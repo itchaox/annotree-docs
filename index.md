@@ -7,7 +7,7 @@ hero:
   text: '生成注释文件树形结构'
   tagline: 大大方便技术文档的编写!
   image:
-    src: /images/logo.png
+    src: /logo.png
     alt: Annotree
   actions:
     - theme: brand
@@ -38,7 +38,7 @@ footer: 'MIT Licensed | Copyright © 2024'
 
 ## 效果预览 🎉
 
-![My Image](/images/demo.gif)
+![My Image](/demo.gif)
 
 <style>
 :root {

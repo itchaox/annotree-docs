@@ -14,7 +14,7 @@ Annotree（Annotate + Tree）是一款用于生成带注释的项目文件树形
 
 ## 效果预览 🎉
 
-![描述](/images/demo.gif)
+![描述](/demo.gif)
 
 ## 功能概览
 
