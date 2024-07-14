@@ -6,7 +6,7 @@ outline: deep
 
 Annotree（Annotate + Tree）是一款用于生成带注释的项目文件树形结构的工具，专为编写技术文档而设计，帮助你高效地编写技术文档。
 
-> 这是我的第一个正式开源项目，如果对你有帮助，[感谢 Star ⭐️](https://github.com/itchaox/annotree) 和分享给你的朋友，这对我很重要，[谢谢 💖](https://github.com/itchaox/annotree)！
+> 这是我的第一个正式开源项目，如果对你有帮助，[感谢 Star ⭐️](https://github.com/itchaox/annotree) 和分享给你的朋友们，这对我很重要，[谢谢 💖](https://github.com/itchaox/annotree)！
 
 ## 使用场景
 
