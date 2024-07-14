@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2024-07-13 09:50
  * @LastAuthor : itchaox
- * @LastTime   : 2024-07-14 11:04
+ * @LastTime   : 2024-07-14 11:11
  * @desc       :
  */
 import { defineConfig } from 'vitepress';
@@ -16,6 +16,10 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     logo: '/logo.png',
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present itchaox',
+    },
     search: {
       provider: 'local',
     },

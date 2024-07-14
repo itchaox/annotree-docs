@@ -40,6 +40,7 @@ footer: 'MIT Licensed | Copyright © 2024'
 
 ![My Image](/demo.gif)
 
+<!--
 <style>
 :root {
   /* 标题 */
@@ -60,5 +61,9 @@ footer: 'MIT Licensed | Copyright © 2024'
     --vp-button-brand-active-text: #253445;
     --vp-button-brand-active-bg: #78d993;
 
+      --vp-c-brand: #D939CD;
+  --vp-c-brand-light: #D939CD;
+  --vp-c-brand-dark: #D939CD;
+
 }
-</style>
+</style> -->
