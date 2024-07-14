@@ -39,31 +39,3 @@ footer: 'MIT Licensed | Copyright © 2024'
 ## 效果预览 🎉
 
 ![My Image](/demo.gif)
-
-<!--
-<style>
-:root {
-  /* 标题 */
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #9df5b9, #78d993);
-
-    /* 图标背景 */
-  --vp-home-hero-image-background-image: linear-gradient( 135deg, #9df5b9 10%, #78d993 100%);
-  --vp-home-hero-image-filter: blur(150px);
-
-    /* brand按钮 */
-  --vp-button-brand-text: #253445;
-  --vp-button-brand-bg: #78d993;
-
-  --vp-button-brand-hover-text: #253445;
-  --vp-button-brand-hover-bg: #9df5b9;
-
-    --vp-button-brand-active-text: #253445;
-    --vp-button-brand-active-bg: #78d993;
-
-      --vp-c-brand: #D939CD;
-  --vp-c-brand-light: #D939CD;
-  --vp-c-brand-dark: #D939CD;
-
-}
-</style> -->
