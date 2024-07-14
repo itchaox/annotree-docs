@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2024-07-13 09:50
  * @LastAuthor : itchaox
- * @LastTime   : 2024-07-14 20:00
+ * @LastTime   : 2024-07-14 20:13
  * @desc       :
  */
 import { defineConfig } from 'vitepress';
@@ -15,6 +15,17 @@ export default defineConfig({
   head: [
     // logo
     ['link', { rel: 'icon', href: '/logo-96.png' }],
+
+    // FIXME 配置 Google Analytics 网站统计
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-Q0JKGYQF74' }],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Q0JKGYQF74');`,
+    ],
 
     // Microsoft Clarity 网站分析
     [
