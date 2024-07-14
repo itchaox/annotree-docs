@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2024-07-13 09:50
  * @LastAuthor : itchaox
- * @LastTime   : 2024-07-14 11:31
+ * @LastTime   : 2024-07-14 20:00
  * @desc       :
  */
 import { defineConfig } from 'vitepress';
@@ -12,7 +12,23 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'Annotree',
   description: 'A VitePress Site',
-  head: [['link', { rel: 'icon', href: '/logo-96.png' }]],
+  head: [
+    // logo
+    ['link', { rel: 'icon', href: '/logo-96.png' }],
+
+    // Microsoft Clarity 网站分析
+    [
+      'script',
+      {},
+      `
+ (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "n75hvvjzlw");
+`,
+    ],
+  ],
   lastUpdated: true,
   themeConfig: {
     logo: '/logo.png',
