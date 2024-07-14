@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: 'Annotree'
-  text: '生成带注释的目录树工具'
+  text: '生成带注释的目录树'
   tagline: 大大方便技术文档的编写!
   image:
     src: /logo.png
