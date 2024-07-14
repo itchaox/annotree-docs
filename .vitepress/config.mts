@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2024-07-13 09:50
  * @LastAuthor : itchaox
- * @LastTime   : 2024-07-13 17:42
+ * @LastTime   : 2024-07-14 07:56
  * @desc       :
  */
 import { defineConfig } from 'vitepress';
@@ -12,7 +12,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'Annotree',
   description: 'A VitePress Site',
-  head: [['link', { rel: 'icon', href: 'images/logo.png' }]],
+  head: [['link', { rel: 'icon', href: 'images/logo-96.png' }]],
   themeConfig: {
     logo: 'images/logo.png',
     search: {
