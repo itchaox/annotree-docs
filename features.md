@@ -1,6 +1,6 @@
 # 功能介绍
 
-> 视频讲解 🎉：https://www.bilibili.com/video/BV1fS421R7UM
+> 视频讲解 🎉：https://www.bilibili.com/video/BV1fS421R7UM  
 > 这是我在 B 站发布的第 2 个技术视频，如果对你有帮助的话，感谢一键三连，加关注~ 💗
 
 ## 扫描
