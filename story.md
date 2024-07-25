@@ -1,6 +1,6 @@
 # 开发 Annotree 的故事
 
-本项目基于 [folder-explorer](https://github.com/d2-projects/folder-explorer) 进行二次开发，感谢 [FairyEver](https://github.com/FairyEver) 的创意和贡献！
+本项目基于 [folder-explorer](https://github.com/d2-projects/folder-explorer) 进行二次开发，🙏🏻 非常感谢 [FairyEver](https://github.com/FairyEver) 的创意和贡献！
 
 ## 起源
 
