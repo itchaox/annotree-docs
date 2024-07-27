@@ -11,10 +11,10 @@
 
 ## Mac 版本
 
-- [GitHub releases 下载](https://github.com/itchaox/annotree/releases/download/v0.1.8/Annotree-0.1.8.dmg)
+- [GitHub releases 下载](https://github.com/itchaox/annotree/releases/download/v0.1.9/Annotree-0.1.9.dmg)
 - [百度网盘 下载](https://pan.baidu.com/s/1eWDBFOgJefqUnx4E5Y9hVw?pwd=Anno#list/path=%2FAnnotree%20%E5%AE%89%E8%A3%85%E5%8C%85%2FMac%20%E7%89%88%E6%9C%AC)
 
 ## Windows 版本
 
-- [GitHub releases 下载](https://github.com/itchaox/annotree/releases/download/v0.1.8/Annotree-0.1.8-setup.exe)
+- [GitHub releases 下载](https://github.com/itchaox/annotree/releases/download/v0.1.9/Annotree-0.1.9-setup.exe)
 - [百度网盘 下载](https://pan.baidu.com/s/1eWDBFOgJefqUnx4E5Y9hVw?pwd=Anno#list/path=%2FAnnotree%20%E5%AE%89%E8%A3%85%E5%8C%85%2FWindows%20%E7%89%88%E6%9C%AC&parentPath=%2F)
