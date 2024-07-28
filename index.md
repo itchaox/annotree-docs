@@ -34,8 +34,6 @@ features:
     title: 自动打开导出文件
     details: 导出文件后自动打开，无需手动查找文件，节省时间，让工作流程更加流畅。
 footer: 'MIT Licensed | Copyright © 2024'
-
-
 > 这是我的第一个正式开源项目，如果对你有帮助，[感谢 Star ⭐️](https://github.com/itchaox/annotree) 和分享给你的朋友们，这对我很重要，[谢谢 💖](https://github.com/itchaox/annotree)！
 ---
 
