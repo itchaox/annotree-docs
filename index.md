@@ -39,4 +39,4 @@ footer: 'MIT Licensed | Copyright © 2024'
 
 ## 效果预览 🎉
 
-![My Image](/demo.gif)
+![My Image2](/demo.gif)
