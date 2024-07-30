@@ -1,20 +1,25 @@
 # 下载
 
-- 暂时只提供 Mac 和 Windows 版本的安装包
-- 由于现在处于 mvp（最简可行产品）阶段，以及这是我第一次使用 Electron 开发跨平台应用，所以软件体积有点大，后续有时间我再研究下如何让软件应用体积尽量减少。
+- 支持版本：Mac、Windows、Linux
+- 这是我第一次使用 Electron 开发跨平台应用，所以软件体积有点大
+- 后续有时间我再研究下如何让软件应用体积尽量减少
 
 ## 注意事项
 
 - 软件下载是通过 GitHub releases 的下载方案，请确保您的网络环境可以正常访问 GitHub。
-- 如果无法正常访问 GitHub，则可通过 **备用方案 [百度网盘地址](https://pan.baidu.com/s/1eWDBFOgJefqUnx4E5Y9hVw?pwd=Anno#list/path=%2F&parentPath=%2F)** 进行下载。
+- 如果无法正常访问 GitHub，则可通过 备用方案 百度网盘地址 进行下载。
 - 后续我再去研究下 GitHub releases 的国内镜像问题。
+- .dmg 为 Mac 版本；.exe 为 Windows 版本；.AppImage 是 Linux 版本。
 
-## Mac 版本
+## GitHub Releases 下载
 
-- [GitHub releases 下载](https://github.com/itchaox/annotree/releases/download/v0.1.9/Annotree-0.1.9.dmg)
-- [百度网盘 下载](https://pan.baidu.com/s/1eWDBFOgJefqUnx4E5Y9hVw?pwd=Anno#list/path=%2FAnnotree%20%E5%AE%89%E8%A3%85%E5%8C%85%2FMac%20%E7%89%88%E6%9C%AC)
+> 项目对你有帮助的话，请帮我点点 Star ⭐️，非常感谢~ 💗  
+> 你们的反馈和支持，是我积极更新软件的最大动力~
 
-## Windows 版本
+[⚡️ 点我去下载](https://github.com/itchaox/annotree)
 
-- [GitHub releases 下载](https://github.com/itchaox/annotree/releases/download/v0.1.9/Annotree-0.1.9-setup.exe)
-- [百度网盘 下载](https://pan.baidu.com/s/1eWDBFOgJefqUnx4E5Y9hVw?pwd=Anno#list/path=%2FAnnotree%20%E5%AE%89%E8%A3%85%E5%8C%85%2FWindows%20%E7%89%88%E6%9C%AC&parentPath=%2F)
+## 百度网盘 下载
+
+> 无法正常访问 GitHub，则可通过 备用方案 百度网盘地址 进行下载
+
+[⚡️ 点我去下载](https://pan.baidu.com/s/1eWDBFOgJefqUnx4E5Y9hVw#list/path=%2FAnnotree%20%E5%AE%89%E8%A3%85%E5%8C%85)
