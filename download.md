@@ -10,6 +10,7 @@
 - 如果无法正常访问 GitHub，则可通过 备用方案 百度网盘地址 进行下载。
 - 后续我再去研究下 GitHub releases 的国内镜像问题。
 - .dmg 为 Mac 版本；.exe 为 Windows 版本；.AppImage 是 Linux 版本。
+- 我自己不太熟悉 Linux 系统，Linux 版本安装有问题请在 GitHub 中提交 [Issue](https://github.com/itchaox/annotree/issues)，或者通过 [Annotree 微信群](https://www.annotree.com/feedback.html) 联系我。
 
 ## 1️⃣ GitHub Releases
 
