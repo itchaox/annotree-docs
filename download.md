@@ -11,14 +11,14 @@
 - 后续我再去研究下 GitHub releases 的国内镜像问题。
 - .dmg 为 Mac 版本；.exe 为 Windows 版本；.AppImage 是 Linux 版本。
 
-## GitHub Releases 下载
+## 1️⃣ GitHub Releases 下载
 
 > 项目对你有帮助的话，请帮我点点 Star ⭐️，非常感谢~ 💗  
 > 你们的反馈和支持，是我积极更新软件的最大动力~
 
 [⚡️ 点我去下载](https://github.com/itchaox/annotree)
 
-## 百度网盘 下载
+## 2️⃣ 百度网盘 下载
 
 > 无法正常访问 GitHub，则可通过 备用方案 百度网盘地址 进行下载
 
