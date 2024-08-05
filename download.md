@@ -23,4 +23,4 @@
 
 > 无法正常访问 GitHub，则可通过 备用方案 百度网盘地址 进行下载
 
-[⚡️ 点我去下载](https://pan.baidu.com/s/1eWDBFOgJefqUnx4E5Y9hVw#list/path=%2FAnnotree%20%E5%AE%89%E8%A3%85%E5%8C%85)
+[⚡️ 点我去下载](https://pan.baidu.com/s/1eWDBFOgJefqUnx4E5Y9hVw?pwd=anno)
