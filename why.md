@@ -12,7 +12,7 @@ Annotree（Annotate + Tree）是一款专为生成文件夹目录注释树而设
 
 ## 效果预览 🎉
 
-![描述](/demo.gif)
+![描述](/demo-zh.gif)
 
 ## 社区
 
