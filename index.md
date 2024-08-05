@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: 'Annotree'
-  text: '生成文件夹目录注释树的'
-  tagline: 大大方便技术文档的编写!
+  text: '生成文件夹目录注释树'
+  tagline: 可视化操作界面，让技术文档编写变得轻松高效!
   image:
     src: /logo.png
     alt: Annotree
@@ -23,16 +23,16 @@ hero:
 features:
   - icon: ✨
     title: 实时预览
-    details: 无需导出文本，即可实时查看注释目录树的效果，让文档编写更加直观高效。
+    details: 修改配置后，实时预览文件夹目录树的效果。
   - icon: 🖊️
     title: 便捷注释
-    details: 通过切换输入框轻松编写注释，避免繁琐的右键菜单操作，提高使用效率。
+    details: 通过简单切换输入框来编写注释，显著提升使用效率。
   - icon: 🚫
     title: 文件和文件夹忽略
-    details: 支持忽略特定文件夹和文件类型，确保只展示你需要的文件结构，保持目录树的简洁。
+    details: 轻松忽略不需要的文件和文件夹，确保目录树只展示你关心的内容。
   - icon: 📂
     title: 自动打开导出文件
-    details: 导出文件后自动打开，无需手动查找文件，节省时间，让工作流程更加流畅。
+    details: 导出文件后自动打开，节省时间，让工作流程更加流畅。
 footer: 'MIT Licensed | Copyright © 2024'
 ---
 
