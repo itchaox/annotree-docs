@@ -36,8 +36,10 @@ features:
 footer: 'MIT Licensed | Copyright © 2024'
 ---
 
-> 这是我的第一个正式开源项目，如果对你有帮助，[🙏🏻 非常感谢 Star ⭐️](https://github.com/itchaox/annotree) 和分享给你的朋友们，这对我很重要，[谢谢 💖](https://github.com/itchaox/annotree)！  
-> 你们的反馈和支持 💯，是我积极更新软件的最大动力~
+::: tip 给我点支持吧 💗
+这是我的首个正式开源项目，如果它对你有帮助，[🙏🏻 请给我一个 Star ⭐️](https://github.com/itchaox/annotree) 并分享给你的朋友们，这对我意义重大，[谢谢 💖](https://github.com/itchaox/annotree)！  
+你的反馈和支持 💯，是我不断改进和积极更新软件的最大动力~
+:::
 
 ## 效果预览 🎉
 
