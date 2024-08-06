@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# 为什么选择 Annotree?
+# 为什么选择 Annotree❓
 
 Annotree（Annotate + Tree）是一款专为生成**文件夹目录注释树**而设计的桌面软件，旨在简化技术文档的编写过程。通过直观的可视化操作界面，你可以轻松创建文件夹目录注释树。
 
