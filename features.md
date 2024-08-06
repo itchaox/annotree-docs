@@ -2,7 +2,7 @@
 
 :::tip 视频讲解
 
-> 我在 B 站发布了一些讲解 Annotree 功能的视频，欢迎大家前往观看。
+> 我在 B 站发布了一些介绍 Annotree 功能的视频，欢迎大家前往观看。
 
 第 1 期视频：https://www.bilibili.com/video/BV1fS421R7UM  
 第 2 期视频：https://www.bilibili.com/video/BV1Tz421B7AY  
