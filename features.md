@@ -1,7 +1,16 @@
 # 功能介绍
 
-> 视频讲解 🎉：https://www.bilibili.com/video/BV1fS421R7UM  
-> 这是我在 B 站发布的第 2 个技术视频，如果对你有帮助的话，感谢一键三连，加关注~ 💗
+:::tip 视频讲解
+
+> 我在 B 站发布了一些讲解 Annotree 功能的视频，欢迎大家前往观看。
+
+第 1 期视频：https://www.bilibili.com/video/BV1fS421R7UM  
+第 2 期视频：https://www.bilibili.com/video/BV1Tz421B7AY  
+第 3 期视频：https://www.bilibili.com/video/BV1bXvoe4EUT
+
+> 我还是 B 站的一位小 up，欢迎大家多多支持！如果这些视频对你有帮助，感谢你的一键三连和关注~
+
+:::
 
 ## 扫描
 
