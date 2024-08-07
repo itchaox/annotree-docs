@@ -32,7 +32,7 @@ const members = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      我们的团队 🥇
+      我们的团队 🤝
     </template>
     <template #lead>
       Annotree 的开发团队由社区成员组成，以下是一些主要贡献者。
