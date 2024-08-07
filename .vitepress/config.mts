@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2024-07-13 09:50
  * @LastAuthor : itchaox
- * @LastTime   : 2024-07-14 20:13
+ * @LastTime   : 2024-08-07 23:07
  * @desc       :
  */
 import { defineConfig } from 'vitepress';
@@ -76,6 +76,7 @@ export default defineConfig({
           { text: '软件下载', link: '/download' },
           { text: '反馈渠道', link: '/feedback' },
           { text: '开发 Annotree 的故事', link: '/story' },
+          { text: 'Annotree 的团队', link: '/team' },
         ],
       },
     ],
