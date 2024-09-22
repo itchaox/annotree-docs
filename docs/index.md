@@ -5,7 +5,7 @@ home: true
 
 hero:
   name: 'Annotree'
-  text: ''
+  text: '生成文件夹目录注释树'
   tagline: 可视化操作界面，让技术文档编写变得轻松高效!
   image:
     src: /logo.png
