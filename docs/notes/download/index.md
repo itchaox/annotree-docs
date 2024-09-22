@@ -14,7 +14,7 @@
   - x64.dmg 是 Mac Intel 系列版本
   - .exe 是 Windows 版本
   - .AppImage 是 Linux 版本
-- 我自己不太熟悉 Linux 系统，Linux 版本安装有问题请在 GitHub 中提交 [Issue](https://github.com/itchaox/annotree/issues)，或者通过 [Annotree 微信群](/notes/feedback) 联系我。
+- 我自己不太熟悉 Linux 系统，Linux 版本安装有问题请在 GitHub 中提交 [Issue](https://github.com/itchaox/annotree/issues)，或者通过 [Annotree 微信群](/notes/feedback/index.md) 联系我。
 
 ## 1️⃣ GitHub Releases
 

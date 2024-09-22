@@ -18,4 +18,4 @@ Annotree（Annotate + Tree）是一款专为生成**文件夹目录注释树**�
 
 ## 社区
 
-如果你有疑问或者需要帮助，可以到 [GitHub Issue](https://github.com/itchaox/annotree/issues) 和 [Annotree 微信群](/notes/feedback.md) 社区来寻求帮助。
+如果你有疑问或者需要帮助，可以到 [GitHub Issue](https://github.com/itchaox/annotree/issues) 和 [Annotree 微信群](/notes/feedback/index.md) 社区来寻求帮助。
