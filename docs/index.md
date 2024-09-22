@@ -1,10 +1,11 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+home: true
 
 hero:
   name: 'Annotree'
-  text: '生成文件夹目录注释树'
+  text: ''
   tagline: 可视化操作界面，让技术文档编写变得轻松高效!
   image:
     src: /logo.png
@@ -12,10 +13,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /notes/features
+      link: /notes/features/
     - theme: alt
       text: 为什么选择 Annotree？
-      link: /notes/why
+      link: /notes/why/
     - theme: alt
       text: 查看源码
       link: https://github.com/itchaox/annotree
@@ -36,7 +37,7 @@ features:
 footer: 'MIT Licensed | Copyright © 2024'
 ---
 
-> [!NOTE] 
+> [!NOTE] 提醒
 >
 > * ① 这是我的首个正式开源项目，如果它对你有帮助，[🙏🏻 请给我一个 Star ⭐️](https://github.com/itchaox/annotree) 并分享给你的朋友们，这对我意义重大，[谢谢 💖](https://github.com/itchaox/annotree)！  
 > * ② 你的反馈和支持 💯，是我不断改进和积极更新软件的最大动力~
@@ -44,3 +45,8 @@ footer: 'MIT Licensed | Copyright © 2024'
 ## 效果预览 🎉
 
 ![](/demo-zh.gif)
+
+---
+
+<confetti />
+<HomeUnderline />
