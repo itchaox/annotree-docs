@@ -22,7 +22,7 @@
   --vp-c-brand-2: #9df5b9;
   --vp-c-brand-3: #78d993;
   --vp-c-sponsor: #78d993;
-  --vp-home-hero-image-filter: blur(40px);
+  --vp-home-hero-image-filter: blur(64px);
 }
 
 /* 禁止双指缩放 */
