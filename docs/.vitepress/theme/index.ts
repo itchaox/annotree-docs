@@ -70,6 +70,5 @@ export default {
       () => route.path,
       () => nextTick(() => initZoom())
     )
-
   }
 }
