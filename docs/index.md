@@ -39,8 +39,8 @@ footer: 'MIT Licensed | Copyright © 2024'
 
 > [!NOTE] 提醒
 >
-> * ① 这是我的首个正式开源项目，如果它对你有帮助，[🙏🏻 请给我一个 Star ⭐️](https://github.com/itchaox/annotree) 并分享给你的朋友们，这对我意义重大，[谢谢 💖](https://github.com/itchaox/annotree)！  
-> * ② 你的反馈和支持 💯，是我不断改进和积极更新软件的最大动力~
+> - ① 这是我的首个正式开源项目，如果它对你有帮助，[🙏🏻 请给我一个 Star ⭐️](https://github.com/itchaox/annotree) 并分享给你的朋友们，这对我意义重大，[谢谢 💖](https://github.com/itchaox/annotree)！
+> - ② 你的反馈和支持 💯，是我不断改进和积极更新软件的最大动力~
 
 ## 效果预览 🎉
 
@@ -48,5 +48,5 @@ footer: 'MIT Licensed | Copyright © 2024'
 
 ---
 
-<confetti />
+<!-- <confetti /> -->
 <HomeUnderline />
