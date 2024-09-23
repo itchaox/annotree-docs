@@ -8,7 +8,7 @@ Annotree（Annotate + Tree）是一款专为生成`文件夹目录注释树`而�
 >
 > 如果你需要生成文件夹目录注释树，一定要试试 Annotree 🌲，它绝对不会让你失望。
 
-# 效果预览 🎉
+# 效果预览
 
 ![描述](./assets/demo-zh.gif)
 

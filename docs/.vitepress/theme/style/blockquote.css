@@ -35,7 +35,8 @@
 }
 
 h1 {
-  background: -webkit-linear-gradient(10deg, #bd34fe 5%, #e43498 15%);
+  /* background: -webkit-linear-gradient(10deg, #bd34fe 5%, #e43498 15%); */
+  background: #ffffffde;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
