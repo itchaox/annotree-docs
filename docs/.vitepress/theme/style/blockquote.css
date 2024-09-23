@@ -13,6 +13,8 @@
   --vp-custom-block-danger-bg: #ffebec;
   --vp-custom-block-important: #a371f7;
   --vp-custom-block-important-bg: #f4eefe;
+  --vp-home-hero-image-background-image: linear-gradient(135deg, #9df5b9 10%, #78d993 100%);
+  --vp-home-hero-image-filter: blur(64px);
 }
 
 .dark {
@@ -31,7 +33,6 @@
   --vp-custom-block-important: #a371f7;
   --vp-custom-block-important-bg: #230555;
 }
-
 
 h1 {
   background: -webkit-linear-gradient(10deg, #bd34fe 5%, #e43498 15%);

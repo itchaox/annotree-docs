@@ -27,85 +27,85 @@
 </template>
 
 <script setup>
-import { onBeforeUnmount, onMounted, ref } from "vue";
+  import { onBeforeUnmount, onMounted, ref } from 'vue';
 
-// 是否显示返回顶部
-const showBackTop = ref(true);
+  // 是否显示返回顶部
+  const showBackTop = ref(true);
 
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-}
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
 
-// 节流
-function throttle(fn, delay = 100) {
-  let lastTime = 0;
-  return function () {
-    let nowTime = +new Date();
-    if (nowTime - lastTime > delay) {
-      fn.apply(this, arguments);
-      lastTime = nowTime;
-    }
-  };
-}
-const onScroll = throttle(() => (showBackTop.value = Boolean(window.scrollY > 100)));
+  // 节流
+  function throttle(fn, delay = 100) {
+    let lastTime = 0;
+    return function () {
+      let nowTime = +new Date();
+      if (nowTime - lastTime > delay) {
+        fn.apply(this, arguments);
+        lastTime = nowTime;
+      }
+    };
+  }
+  const onScroll = throttle(() => (showBackTop.value = Boolean(window.scrollY > 100)));
 
-// 监听滚动事件
-onMounted(() => window.addEventListener("scroll", onScroll));
+  // 监听滚动事件
+  onMounted(() => window.addEventListener('scroll', onScroll));
 
-// 移除监听事件
-onBeforeUnmount(() => window.removeEventListener("scroll", onScroll));
+  // 移除监听事件
+  onBeforeUnmount(() => window.removeEventListener('scroll', onScroll));
 </script>
 
 <style lang="css" scoped>
-.vitepress-backTop-main {
-  z-index: 999;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #3eaf7c;
-  padding: 10px;
-  box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.15);
-}
-
-.vitepress-backTop-main:hover {
-  background-color: #71cda3;
-}
-
-svg {
-  width: 100%;
-  height: 100%;
-}
-
-/* 旋转动画 */
-@keyframes bounce {
-  0% {
-    transform: translateY(0) rotateY(0);
+  .vitepress-backTop-main {
+    z-index: 999;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3eaf7c;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.15);
   }
 
-  50% {
-    transform: translateY(-10px) rotateY(180deg);
+  .vitepress-backTop-main:hover {
+    background-color: #71cda3;
   }
 
-  100% {
-    transform: translateY(0) rotateY(360deg);
+  svg {
+    width: 100%;
+    height: 100%;
   }
-}
 
-/* 进入 退出动画 */
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s ease;
-}
+  /* 旋转动画 */
+  @keyframes bounce {
+    0% {
+      transform: translateY(0) rotateY(0);
+    }
 
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-}
+    50% {
+      transform: translateY(-10px) rotateY(180deg);
+    }
+
+    100% {
+      transform: translateY(0) rotateY(360deg);
+    }
+  }
+
+  /* 进入 退出动画 */
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s ease;
+  }
+
+  .fade-enter-from,
+  .fade-leave-to {
+    opacity: 0;
+  }
 </style>
