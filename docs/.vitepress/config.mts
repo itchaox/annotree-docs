@@ -2,25 +2,24 @@
  * @Version    : v1.00
  * @Author     : itchaox
  * @Date       : 2024-07-13 09:50
- * @LastAuthor : itchaox
- * @LastTime   : 2024-08-07 23:07
+ * @LastAuthor : Wang Chao
+ * @LastTime   : 2024-09-23 23:30
  * @desc       :
  */
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
-import { loadEnv } from 'vite'
-import sidebar from './sidebar'
-import { nav } from './navbar'
-const mode = process.env.NODE_ENV || 'development'
-const { VITE_BASE_URL } = loadEnv(mode, process.cwd())
+import { loadEnv } from 'vite';
+import sidebar from './sidebar';
+import { nav } from './navbar';
+const mode = process.env.NODE_ENV || 'development';
+const { VITE_BASE_URL } = loadEnv(mode, process.cwd());
 
-console.log('Mode:', process.env.NODE_ENV)
-console.log('VITE_BASE_URL:', VITE_BASE_URL)
+console.log('Mode:', process.env.NODE_ENV);
+console.log('VITE_BASE_URL:', VITE_BASE_URL);
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Annotree',
-  titleTemplate: "Hi，终于等到你", // 网页标题
   description: 'A VitePress Site',
   head: [
     // logo
@@ -30,7 +29,14 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap', rel: 'stylesheet' }],
     // 网页视口
-    ['meta', { name: "viewport", content: "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,shrink-to-fit=no" }],
+    [
+      'meta',
+      {
+        name: 'viewport',
+        content:
+          'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,shrink-to-fit=no',
+      },
+    ],
     // FIXME 配置 Google Analytics 网站统计
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-Q0JKGYQF74' }],
     [
@@ -58,44 +64,45 @@ export default defineConfig({
   appearance: true, // 主题模式，默认浅色且开启切换
   lastUpdated: true,
   base: VITE_BASE_URL,
-  markdown: { // markdown 配置
+  markdown: {
+    // markdown 配置
     math: true,
     lineNumbers: true, // 行号显示
     image: {
       // 开启图片懒加载
-      lazyLoading: true
+      lazyLoading: true,
     },
     // 组件插入h1标题下
     config: (md) => {
       // 创建 markdown-it 插件
       md.use((md) => {
-        const defaultRender = md.render
+        const defaultRender = md.render;
         md.render = function (...args) {
-          const [content, env] = args
-          const isHomePage = env.path === '/'
-            || env.relativePath === 'index.md'  // 判断是否是首页
+          const [content, env] = args;
+          const isHomePage = env.path === '/' || env.relativePath === 'index.md'; // 判断是否是首页
 
           if (isHomePage) {
-            return defaultRender.apply(md, args) // 如果是首页，直接渲染内容
+            return defaultRender.apply(md, args); // 如果是首页，直接渲染内容
           }
           // 调用原始渲染
-          let defaultContent = defaultRender.apply(md, args)
+          let defaultContent = defaultRender.apply(md, args);
           // 替换内容
-          defaultContent = defaultContent.replace(/NOTE/g, '提醒')
+          defaultContent = defaultContent
+            .replace(/NOTE/g, '提醒')
             .replace(/TIP/g, '建议')
             .replace(/IMPORTANT/g, '重要')
             .replace(/WARNING/g, '警告')
-            .replace(/CAUTION/g, '注意')
+            .replace(/CAUTION/g, '注意');
           // 在每个 md 文件内容的开头插入组件
-          const component = '<ArticleMetadata />\n'
-          if (env.relativePath.includes("team")) {
-            return defaultContent
+          const component = '<ArticleMetadata />\n';
+          if (env.relativePath.includes('team')) {
+            return defaultContent;
           }
           // 返回渲染的内容
-          return component + defaultContent
-        }
-      })
-    }
+          return component + defaultContent;
+        };
+      });
+    },
   },
   themeConfig: {
     logo: '/logo.png',
@@ -118,14 +125,13 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
     outlineTitle: '本页目录',
-    outline: { // 大纲显示 1-6 级标题
+    outline: {
+      // 大纲显示 1-6 级标题
       level: [1, 6],
-      label: '目录'
+      label: '目录',
     },
     nav: nav,
     sidebar: sidebar,
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/itchaox/annotree' }
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/itchaox/annotree' }],
   },
-})
+});
