@@ -2,13 +2,12 @@
 >
 > 我在 B 站发布了一些介绍 Annotree 功能的视频，欢迎大家前往观看。
 >
-> * 第 1 期视频：https://www.bilibili.com/video/BV1fS421R7UM  
-> * 第 2 期视频：https://www.bilibili.com/video/BV1Tz421B7AY  
-> * 第 3 期视频：https://www.bilibili.com/video/BV1bXvoe4EUT
+> - 第 1 期视频：https://www.bilibili.com/video/BV1fS421R7UM
+> - 第 2 期视频：https://www.bilibili.com/video/BV1Tz421B7AY
+> - 第 3 期视频：https://www.bilibili.com/video/BV1bXvoe4EUT
+> - 第 4 期视频：https://www.bilibili.com/video/BV1fGHjesENs
 >
-> 我还是 B 站的一位小 up，欢迎大家多多支持！如果这些视频对你有帮助，感谢你的一键三连和关注~
-
-
+> 我还是 B 站的一位新人 UP，欢迎大家多多支持！如果这些视频对你有帮助，感谢你的一键三连和关注~ 💗
 
 # 概述
 
