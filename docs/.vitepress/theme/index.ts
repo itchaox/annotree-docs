@@ -1,74 +1,85 @@
+/*
+ * @Version    : v1.00
+ * @Author     : Wang Chao
+ * @Date       : 2024-09-23 00:25
+ * @LastAuthor : Wang Chao
+ * @LastTime   : 2024-11-15 11:22
+ * @desc       :
+ */
 // .vitepress/theme/index.ts
-import DefaultTheme from 'vitepress/theme'
-import ArticleMetadata from "./components/ArticleMetadata.vue"
-import mediumZoom from 'medium-zoom'
-import { onMounted, watch, nextTick, h } from 'vue'
-import { useData, useRoute } from 'vitepress'
-import confetti from "./components/confetti.vue"
-import backTop from "./components/backTop.vue"
-import HomeUnderline from "./components/HomeUnderline.vue"
-import './style/index.css'
+import DefaultTheme from 'vitepress/theme';
+import ArticleMetadata from './components/ArticleMetadata.vue';
+import mediumZoom from 'medium-zoom';
+import { onMounted, watch, nextTick, h } from 'vue';
+import { useData, useRoute } from 'vitepress';
+import confetti from './components/confetti.vue';
+import backTop from './components/backTop.vue';
+import HomeUnderline from './components/HomeUnderline.vue';
+import GitHubStargazers from '../../components/GitHubStargazers.vue';
+
+import './style/index.css';
 
 export default {
   extends: DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'doc-footer-before': () => h(backTop), // 使用doc-footer-before插槽
-    })
+    });
   },
   enhanceApp({ app }) {
-    app.component('ArticleMetadata', ArticleMetadata)
-    app.component('confetti', confetti)
-    app.component('HomeUnderline', HomeUnderline)
+    app.component('ArticleMetadata', ArticleMetadata);
+    app.component('confetti', confetti);
+    app.component('HomeUnderline', HomeUnderline);
+    app.component('GitHubStargazers', GitHubStargazers);
   },
   setup() {
     // Get frontmatter and route
-    const { frontmatter } = useData()
-    const route = useRoute()
+    const { frontmatter } = useData();
+    const route = useRoute();
     const initZoom = () => {
       // mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' }); // 默认
-      mediumZoom('.main img', { background: 'var(--vp-c-bg)' }) // 不显式添加{data-zoomable}的情况下为所有图像启用此功能
-    }
+      mediumZoom('.main img', { background: 'var(--vp-c-bg)' }); // 不显式添加{data-zoomable}的情况下为所有图像启用此功能
+    };
     onMounted(() => {
-      initZoom()
+      initZoom();
 
       // 添加 .VPNavBarTitle 的点击事件
-      const navBarTitle = document.querySelector('.VPNavBarTitle')
+      const navBarTitle = document.querySelector('.VPNavBarTitle');
       if (navBarTitle) {
         navBarTitle.addEventListener('click', () => {
           // 刷新页面
-          location.reload()
-        })
+          location.reload();
+        });
       }
 
       // 禁止 ios 缩放屏幕
       document.addEventListener('gesturestart', function (event) {
-        event.preventDefault()
-      })
+        event.preventDefault();
+      });
 
       // 禁止移动端（IOS）双击页面变大
-      let touchTime = 0
+      let touchTime = 0;
       document.addEventListener('touchstart', function (event) {
         if (event.touches.length > 1) {
-          event.preventDefault()
+          event.preventDefault();
         }
-      })
+      });
       document.addEventListener(
         'touchend',
         function (event) {
           //记录当前点击的时间与下一次时间的间隔
-          const nowTime = new Date()
+          const nowTime = new Date();
           if (nowTime.getTime() - touchTime <= 300) {
-            event.preventDefault()
+            event.preventDefault();
           }
-          touchTime = nowTime.getTime()
+          touchTime = nowTime.getTime();
         },
-        false
-      )
-    })
+        false,
+      );
+    });
     watch(
       () => route.path,
-      () => nextTick(() => initZoom())
-    )
-  }
-}
+      () => nextTick(() => initZoom()),
+    );
+  },
+};
