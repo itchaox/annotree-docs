@@ -9,13 +9,13 @@
 
 ## 1️⃣ GitHub Releases
 
-> 项目对你有帮助的话，请帮我点点 Star ⭐️，非常感谢~ 💗  
-> 你的反馈和支持 💯，是我不断改进和积极更新软件的最大动力~
+> Annotree 对你有帮助的话，请帮我点个 [Star ⭐️](https://github.com/itchaox/annotree)，非常感谢~ 💗  
+> 你的反馈和支持 💯，是我们不断改进和积极更新 Annotree 的最大动力~
 
 [⚡️ 点我去下载](https://github.com/itchaox/annotree)
 
 ## 2️⃣ 百度网盘
 
-> 无法正常访问 GitHub，则可通过 备用方案 百度网盘地址 进行下载
+> 无法正常访问 GitHub，则可通过 **百度网盘** 下载
 
 [⚡️ 点我去下载](https://pan.baidu.com/s/1eWDBFOgJefqUnx4E5Y9hVw?pwd=anno)
